@@ -1,0 +1,398 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: rgb(246, 246, 247);
+}
+.nav-bar{
+    height:110px;
+    width:1350;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+   
+}
+.nav-bar1{
+
+    height: 15px;
+    width:1350px;
+    display:flex;
+   align-items:self-start ;
+    justify-content: space-evenly;
+    margin-top: -70px;
+    position: fixed;
+}
+.nav-bar1 input {
+    height:30px;
+    width:250px;
+    border:0.5px solid rgb(216, 203, 203);
+color:rgb(165, 164, 164);   
+background-color: rgb(253, 253, 253); 
+font-size:1rem;
+font-weight: 300;
+margin-right:910px;
+}
+.nav-bar1 a{
+    font-size: 0.85rem;
+    font-weight: 200;
+    color:rgb(49, 46, 46);
+}
+.nav-bar1 a:hover{
+opacity: 0.5;
+}
+#image1{
+    height: 60px;
+    width:150px;
+   background-size: cover;
+  
+  margin-top: 10px;
+
+}
+.imagediv{
+    height: 50px;
+    width:100px;
+   background-size: cover;
+    margin-right: 300px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-bar2{
+    height:50px;
+    width:1362px;
+    display:flex;
+    margin-top: 10px;
+    justify-content: space-evenly;
+}
+.nav-bar2 a{
+    font-weight: -100;
+    cursor:pointer;
+}
+.nav-bar2 a:hover{
+    opacity: 0.5;
+}
+.video{
+    height: 500px;
+    width:900px;
+    background-size: cover;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center ;
+    margin-left: 200px;
+}
+.video1{
+    height: 500px;
+    width: 800px;
+    background-size: cover;
+    margin-left: 200px;
+    margin-right: 100px;
+}
+ 
+.content {
+    height: 50px;
+    width: 200px;
+   
+  
+    margin-left: 556px;
+    margin-top: -340px;
+    background-color: transparent;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.content h1{
+    font-weight: 800;
+    font-size: 2rem;
+    background-color: transparent;
+   
+}
+.content button{
+    background-color: transparent;
+    border: 2px solid maroon;
+    color:maroon;
+    height: 60px;
+    width: 400px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 800;
+    margin-right: 800px;
+    align-items: center;
+    margin-top: 20px;
+    cursor: pointer;
+ 
+}
+button:hover{
+    color:white;
+    background-color: maroon;
+    cursor: pointer;
+}
+.video2{
+    height: 500px;
+    width:900px;
+    background-size: cover;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center ;
+    margin-left: 200px;
+    margin-top: 260px;
+}
+.video3{
+    height: 500px;
+    width:900px;
+    background-size: cover;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center ;
+    margin-left: 200px;
+    margin-top: 360px;
+}
+.video4{
+    height: 500px;
+    width:900px;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center ;
+    margin-left: 200px;
+    margin-top: 360px;
+}
+
+.hero{
+    height:80px;
+    width:900px;
+   text-align: center;
+    margin-top: 340px;
+    margin-left: 210px;
+}
+.video5{
+    height: 500px;
+    width:900px;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center ;
+    margin-left: 200px;
+    margin-top: 150px;
+}
+.content p{
+    color:black;
+    font-size: 1rem;
+    opacity: 0.8;
+    background-color: transparent;
+    
+
+}
+.items{
+    height: 500px;
+    width:900px;
+    margin-top:300px;
+    margin-left:200px;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.item0{
+    height:400px;
+    width:260px;
+    margin-top: 40px;
+}
+.item0 h1{
+    font-size: 1.2rem;
+    font-weight: 800;
+    text-align: center;
+    color:maroon;
+}
+.p{
+    margin-top: 6px;
+    opacity: 0.8;
+    text-align: center;
+}
+.o{
+    opacity: 0.5;
+    text-align: center;
+    margin-top: 12px;
+    font-size: 0.85rem;
+}
+.item0 img{
+    height: 400px;
+    width:260px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    margin-bottom:  20px;
+}
+.content2{
+    
+    height: 250px;
+    width:1346px;
+    margin-top: 80px;
+    display:flex;
+    justify-content: space-evenly;
+    background-color: white;
+
+}
+.h1{
+    height:60px;
+    width:300px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+   
+}
+.h1 h1{
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+    background-color: transparent;
+    letter-spacing: 2px;
+}
+.io{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    
+}
+.icon0{
+    height:265px;
+    width:300px;
+    background-color: white;
+    margin-bottom: 10px;
+   
+}
+i{
+    font-size: 8rem;
+    text-align: center;
+    margin-left: 75px;
+    background-color: transparent;
+}
+.icon0 h1{
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: 800;
+    text-align: center;
+    background-color: transparent;
+}
+.icon0 p{
+    margin-top: 10px;
+    opacity: 0.6;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: transparent;
+}
+.pre{
+    height: 260px;
+    width: 1350px;
+    background-color: white;
+}
+.pre h1{
+    text-align: center;
+    background-color: transparent;
+    font-size: 2rem;
+    font-weight: 1000;
+    margin-top: 100px;
+    letter-spacing: 4px;
+    color:black;
+}
+.pre input{
+    background-color: transparent;
+    font-size: 1.2rem;
+    opacity: 0.8;
+    color:black;
+    height:60px;
+    width:450px;
+    margin-left: 360px;
+    margin-top: 40px;
+    border: 2px solid maroon;
+
+}
+.pre button{
+    height: 64.5px;
+    width:180px;
+    border: 2px solid maroon;
+}
+.foot{
+    height:300px;
+    width:1350px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(246, 246, 247);
+ 
+}
+.foot h1{
+    margin-top:60px;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+.foot h1:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.foot1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.con{
+    margin-bottom: -400px;
+    height: 100px;
+    width:200px;
+}
+.cono{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width:280px;
+    margin-left: 8px;
+}
+.con a{
+    
+}
+.con i{
+    font-size: 0.5rem;
+}
+
+.con li{
+    margin-left: 40px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+.con li:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.pasha{
+    height:150px;
+    width:1350px;
+display:flex;
+justify-content: space-evenly;
+background-color: rgb(246, 246, 247);
+margin-top: 150px;
+
+}
+.pasha img{
+    height: 50px;
+    width:150px;
+    background-size: cover;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+.pasha p{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top:60px;
+    text-align: center;
+    opacity: 1;
+}
+.pasha i{
+    font-size:3rem;
+    margin-top: 60px;
+    margin-right: 20px;
+}
